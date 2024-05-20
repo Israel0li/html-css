@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de Iframe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe#tela {
+            width: 95vw;
+            height: 450px;
+            border: 2px solid black;
+        }
+
+        a {
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        #blue {
+            color: blue;
+        }
+
+        #red {
+            color: red;
+        }
+
+        #green {
+            color: green;
+        }
+    </style>    
+</head>
+<body>
+    <h1>Faça um escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dignissimos minima labore repellat ex iste maxime iusto nobis eligendi voluptas tempora alias deleniti inventore voluptate, nisi soluta quis quasi sapiente!</p>
+
+    <ul>
+        <li><a href="pag-extras/pag01.html" target="frame" id="blue">Página Azul</a></li>
+        <li><a href="pag-extras/pag02.html" target="frame" id="red">Página Vermelha</a></li>
+        <li><a href="pag-extras/pag03.html" target="frame" id="green">Página Verde</a></li>
+        
+        
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dignissimos minima labore repellat ex iste maxime iusto nobis eligendi voluptas tempora alias deleniti inventore voluptate, nisi soluta quis quasi sapiente! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil aliquid accusamus repellat maxime aut minima voluptas modi corrupti aspernatur cum vero rerum debitis, provident obcaecati, eaque fugit fuga officiis saepe!</p>
+    
+    <iframe id="tela" name="frame" src="pag-extras/pag00.html">
+        <p>Infelizmente seu navegador não é compativel </p>
+    </iframe>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum porro odio commodi soluta molestias veniam consequuntur! Nostrum veniam magnam veritatis nam obcaecati, adipisci natus aliquid molestiae iusto, quaerat assumenda non!
+    Veniam, voluptates rem non id, ut recusandae ipsa dolorem neque similique sunt atque quas, vel officia sed expedita dignissimos voluptas dolor? Illo adipisci, odit veritatis nemo perspiciatis quibusdam dolorem esse!</p>
+</body>
+</html>
