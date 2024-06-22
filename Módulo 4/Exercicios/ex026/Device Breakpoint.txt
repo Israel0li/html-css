@@ -4,3 +4,5 @@ Celular: 600px até 768px
 Table: 768 até 992px
 Desktop: 992px até 1200px
 Grandes Telas: acima de 1200px
+
+Lembre-se sempre de olhar no w3c quais são as novas resoluções
