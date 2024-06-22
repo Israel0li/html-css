@@ -1,0 +1,6 @@
+Tycical Device Breakpoints
+Pequenas telas: até 600px
+Celular: 600px até 768px
+Table: 768 até 992px
+Desktop: 992px até 1200px
+Grandes Telas: acima de 1200px
